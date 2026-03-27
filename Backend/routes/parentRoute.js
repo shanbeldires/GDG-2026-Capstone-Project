@@ -1,8 +1,8 @@
 import express from "express";
 const parentRoutes = express.Router();
 parentRoutes.get("/children",)
-parentRoutes.get("/children/:id/progress",)
-parentRoutes.post("/children/:id/alerts",)
+parentRoutes.get("/children/:childrenId/progress",)
+parentRoutes.post("/children/:childrenId/alerts",)
 parentRoutes.post("/children/",)
-parentRoutes.delete("/children/:id",)
+parentRoutes.delete("/children/:childrenId",)
 export default parentRoutes;

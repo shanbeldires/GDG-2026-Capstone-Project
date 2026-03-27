@@ -14,6 +14,7 @@ import quizRoutes from "./routes/quizRoutes.js";
 import dashboardRoutes from "./routes/dashboardRoute.js";
 import parentRoutes from "./routes/parentRoute.js";
 import adminRoutes from "./routes/adminRoute.js";
+import aiRoutes from "./routes/aiRoute.js";
 
 const app = express();
 
@@ -34,7 +35,7 @@ app.use("/api/v1/parent",parentRoutes)
 app.use("/api/v1/teacher",)
 app.use("/api/v1/admin",adminRoutes)
 app.use("/api/v1/sync",)
-app.use("/api/v1/ai",)
+app.use("/api/v1/ai",aiRoutes)
 
 // Error handler
 app.use(errorHandler);
