@@ -1,0 +1,8 @@
+import dotenv from "dotenv";
+dotenv.config();
+const ACCESS_TOKEN_SECRET_KEY=process.env.ACCESS_TOKEN_SECRET_KEY
+const REFRESH_TOKEN_SECRET_KEY=process.env.REFRESH_TOKEN_SECRET_KEY
+const MONGO_URI=process.env.MONGO_URI
+const PORTNUM=process.env.PORT
+const CLIENT_URL=process.env.CLIENT_URL
+export {ACCESS_TOKEN_SECRET_KEY,REFRESH_TOKEN_SECRET_KEY,MONGO_URI,PORTNUM,CLIENT_URL}
