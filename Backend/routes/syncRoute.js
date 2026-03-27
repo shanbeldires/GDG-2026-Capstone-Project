@@ -1,5 +1,9 @@
 import express from "express";
-import { uploadAllData, getAllData } from "../controllers/syncController.js";
+import{
+    getAllData,
+    uploadAllData,
+}
+from "../controllers/syncController.js";
 
 const syncRoutes = express.Router();
 
